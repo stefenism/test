@@ -1,0 +1,118 @@
+[33mcommit 3727283d47cab12b2bfa8263a65780097e0e7c58[m
+Author: stefenism <stefenisms@gmail.com>
+Date:   Fri Jan 20 12:54:44 2017 -0600
+
+    add initial project files
+
+[1mdiff --git a/Assets/Animation.meta b/Assets/Animation.meta[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7b7f4a7[m
+[1m--- /dev/null[m
+[1m+++ b/Assets/Animation.meta[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32mfileFormatVersion: 2[m
+[32m+[m[32mguid: 33477f32b74154e9b9291fb6782bece1[m
+[32m+[m[32mfolderAsset: yes[m
+[32m+[m[32mtimeCreated: 1484938363[m
+[32m+[m[32mlicenseType: Free[m
+[32m+[m[32mDefaultImporter:[m
+[32m+[m[32m  userData:[m[41m [m
+[32m+[m[32m  assetBundleName:[m[41m [m
+[32m+[m[32m  assetBundleVariant:[m[41m [m
+[1mdiff --git a/Assets/Prefab.meta b/Assets/Prefab.meta[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4a0708f[m
+[1m--- /dev/null[m
+[1m+++ b/Assets/Prefab.meta[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32mfileFormatVersion: 2[m
+[32m+[m[32mguid: 1e1785697a75f40879f7d99fad33f97a[m
+[32m+[m[32mfolderAsset: yes[m
+[32m+[m[32mtimeCreated: 1484938372[m
+[32m+[m[32mlicenseType: Free[m
+[32m+[m[32mDefaultImporter:[m
+[32m+[m[32m  userData:[m[41m [m
+[32m+[m[32m  assetBundleName:[m[41m [m
+[32m+[m[32m  assetBundleVariant:[m[41m [m
+[1mdiff --git a/Assets/Sprites.meta b/Assets/Sprites.meta[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f9236b9[m
+[1m--- /dev/null[m
+[1m+++ b/Assets/Sprites.meta[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32mfileFormatVersion: 2[m
+[32m+[m[32mguid: 8fb7ccf67b253453a8a5074bff469248[m
+[32m+[m[32mfolderAsset: yes[m
+[32m+[m[32mtimeCreated: 1484938367[m
+[32m+[m[32mlicenseType: Free[m
+[32m+[m[32mDefaultImporter:[m
+[32m+[m[32m  userData:[m[41m [m
+[32m+[m[32m  assetBundleName:[m[41m [m
+[32m+[m[32m  assetBundleVariant:[m[41m [m
+[1mdiff --git a/ProjectSettings/AudioManager.asset b/ProjectSettings/AudioManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a915aed[m
+Binary files /dev/null and b/ProjectSettings/AudioManager.asset differ
+[1mdiff --git a/ProjectSettings/ClusterInputManager.asset b/ProjectSettings/ClusterInputManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..93ed9a2[m
+Binary files /dev/null and b/ProjectSettings/ClusterInputManager.asset differ
+[1mdiff --git a/ProjectSettings/DynamicsManager.asset b/ProjectSettings/DynamicsManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8615a89[m
+Binary files /dev/null and b/ProjectSettings/DynamicsManager.asset differ
+[1mdiff --git a/ProjectSettings/EditorBuildSettings.asset b/ProjectSettings/EditorBuildSettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..07e524f[m
+Binary files /dev/null and b/ProjectSettings/EditorBuildSettings.asset differ
+[1mdiff --git a/ProjectSettings/EditorSettings.asset b/ProjectSettings/EditorSettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..da83a72[m
+Binary files /dev/null and b/ProjectSettings/EditorSettings.asset differ
+[1mdiff --git a/ProjectSettings/GraphicsSettings.asset b/ProjectSettings/GraphicsSettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..877dbd4[m
+Binary files /dev/null and b/ProjectSettings/GraphicsSettings.asset differ
+[1mdiff --git a/ProjectSettings/InputManager.asset b/ProjectSettings/InputManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a7b8b25[m
+Binary files /dev/null and b/ProjectSettings/InputManager.asset differ
+[1mdiff --git a/ProjectSettings/NavMeshAreas.asset b/ProjectSettings/NavMeshAreas.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae5a2cd[m
+Binary files /dev/null and b/ProjectSettings/NavMeshAreas.asset differ
+[1mdiff --git a/ProjectSettings/NetworkManager.asset b/ProjectSettings/NetworkManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f047379[m
+Binary files /dev/null and b/ProjectSettings/NetworkManager.asset differ
+[1mdiff --git a/ProjectSettings/Physics2DSettings.asset b/ProjectSettings/Physics2DSettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0c24311[m
+Binary files /dev/null and b/ProjectSettings/Physics2DSettings.asset differ
+[1mdiff --git a/ProjectSettings/ProjectSettings.asset b/ProjectSettings/ProjectSettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5eb02e4[m
+Binary files /dev/null and b/ProjectSettings/ProjectSettings.asset differ
+[1mdiff --git a/ProjectSettings/ProjectVersion.txt b/ProjectSettings/ProjectVersion.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bf3ea7b[m
+[1m--- /dev/null[m
+[1m+++ b/ProjectSettings/ProjectVersion.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mm_EditorVersion: 5.5.0xp1Linux[m
+[1mdiff --git a/ProjectSettings/QualitySettings.asset b/ProjectSettings/QualitySettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b3b7227[m
+Binary files /dev/null and b/ProjectSettings/QualitySettings.asset differ
+[1mdiff --git a/ProjectSettings/TagManager.asset b/ProjectSettings/TagManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3cf5692[m
+Binary files /dev/null and b/ProjectSettings/TagManager.asset differ
+[1mdiff --git a/ProjectSettings/TimeManager.asset b/ProjectSettings/TimeManager.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dfdc5e3[m
+Binary files /dev/null and b/ProjectSettings/TimeManager.asset differ
+[1mdiff --git a/ProjectSettings/UnityConnectSettings.asset b/ProjectSettings/UnityConnectSettings.asset[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7673f7c[m
+Binary files /dev/null and b/ProjectSettings/UnityConnectSettings.asset differ
